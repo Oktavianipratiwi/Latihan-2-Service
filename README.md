@@ -1,7 +1,4 @@
-# Latihan-2-Service
-Tugas Ke2 P.Client Server
-
-# ** Membuat Latihan 2 Microservice **
+# Membuat Latihan 2 Microservice 
 
 ## Download Project Maven
 **Langkah 1 :** Pertama kali yang harus dilakukan yaitu membuat project Maven menggunakan Spring Initializr https://start.spring.io/
@@ -23,13 +20,15 @@ Tugas Ke2 P.Client Server
 <br>![image](https://user-images.githubusercontent.com/113502499/192421018-25a095d6-da28-41b2-a855-0ee6471e635e.png)
 
 **Langkah 2 :**
-<br> Buka proyek di IDE Anda dan cari **DemoApplication.javafile** di **src/main/java/com/example/demofolder**. Sekarang ubah isi file dengan menambahkan metode tambahan dan anotasi yang ditunjukkan pada kode di bawah ini. Anda dapat menyalin dan menempelkan kode atau cukup mengetiknya.
+<br> Buka proyek di IDE Anda dan cari **LatihanServiceAplication.java** di **Source Packages** pada folder **com.oktavianipratiwi.latihan2service**. Sekarang ubah isi file dengan menambahkan metode tambahan dan anotasi yang ditunjukkan pada kode di bawah ini. Anda dapat menyalin dan menempelkan kode atau cukup mengetiknya.
 <br>![image](https://user-images.githubusercontent.com/113502499/192435718-e1c4ccd3-8f05-46f9-958a-efc50b79abf2.png)
 
-
-<br>Metode hello() yang kami tambahkan dirancang untuk mengambil parameter String yang disebut name, dan kemudian menggabungkan parameter ini dengan kata **"Hello"** dalam kode. Ini berarti bahwa jika Anda menyetel nama Anda ke **“Oktaviani”** dalam permintaan, responsnya adalah **“Hello Oktaviani”**.
+<br>Metode hello() yang kami tambahkan dirancang untuk mengambil parameter String yang disebut name, dan kemudian menggabungkan parameter ini dengan kata **"Hello"** dalam kode. Ini berarti bahwa jika Anda menyetel nama Anda ke **“Latihan 2”** dalam permintaan, responsnya adalah **“Hello Latihan 2”**.
 <br>Anotasi **@RestController** memberi tahu Spring bahwa kode ini menjelaskan titik akhir yang harus tersedia melalui web. Memberi **@GetMapping(“/hello”)** tahu Spring untuk menggunakan hello() metode kami untuk menjawab permintaan yang dikirim ke **http://localhost:8080/helloalamat**. Akhirnya, **@RequestParamSpring** memberi tahu Spring untuk mengharapkan name nilai dalam permintaan, tetapi jika tidak ada, itu akan menggunakan kata "Dunia" secara default.
 
 **Langkah 3 :**
+
+
+**Langkah 4 :**
 <br>Server Apache Tomcat tertanam pada Spring Boot bertindak sebagai server web dan mendengarkan permintaan pada localhostport 8080. Buka browser Anda dan di bilah alamat di bagian atas enter http://localhost:8080/halo . Anda harus mendapatkan respons ramah yang bagus seperti ini:
 <br>
