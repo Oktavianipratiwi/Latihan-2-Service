@@ -27,8 +27,9 @@
 <br>Anotasi **@RestController** memberi tahu Spring bahwa kode ini menjelaskan titik akhir yang harus tersedia melalui web. Memberi **@GetMapping(“/hello”)** tahu Spring untuk menggunakan hello() metode kami untuk menjawab permintaan yang dikirim ke **http://localhost:8080/helloalamat**. Akhirnya, **@RequestParamSpring** memberi tahu Spring untuk mengharapkan name nilai dalam permintaan, tetapi jika tidak ada, itu akan menggunakan kata "Dunia" secara default.
 
 **Langkah 3 :**
-
+Pada project pergi ke **Other Sources >> src/main/resources >> default package >> application.properties.** Lalu buat server.port= *nomorPort*
 
 **Langkah 4 :**
-<br>Server Apache Tomcat tertanam pada Spring Boot bertindak sebagai server web dan mendengarkan permintaan pada localhostport 8080. Buka browser Anda dan di bilah alamat di bagian atas enter http://localhost:8080/halo . Anda harus mendapatkan respons ramah yang bagus seperti ini:
-<br>
+<br>Buka browser Anda dan di bilah alamat di bagian atas enter http://localhost:8011/halo . Anda harus mendapatkan respons ramah yang bagus seperti ini:
+<br>![image](https://user-images.githubusercontent.com/113502499/192455031-9d8fb45b-72c0-4f4f-b538-5c3404fafa6e.png)
+
