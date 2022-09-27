@@ -24,12 +24,12 @@ Tugas Ke2 P.Client Server
 
 **Langkah 2 :**
 <br> Buka proyek di IDE Anda dan cari **DemoApplication.javafile** di **src/main/java/com/example/demofolder**. Sekarang ubah isi file dengan menambahkan metode tambahan dan anotasi yang ditunjukkan pada kode di bawah ini. Anda dapat menyalin dan menempelkan kode atau cukup mengetiknya.
-<br>![image](https://user-images.githubusercontent.com/113502499/192421309-a58ee914-e49b-4795-81f0-0560181f0794.png)
+<br>![image](https://user-images.githubusercontent.com/113502499/192435718-e1c4ccd3-8f05-46f9-958a-efc50b79abf2.png)
+
 
 <br>Metode hello() yang kami tambahkan dirancang untuk mengambil parameter String yang disebut name, dan kemudian menggabungkan parameter ini dengan kata **"Hello"** dalam kode. Ini berarti bahwa jika Anda menyetel nama Anda ke **“Oktaviani”** dalam permintaan, responsnya adalah **“Hello Oktaviani”**.
 <br>Anotasi **@RestController** memberi tahu Spring bahwa kode ini menjelaskan titik akhir yang harus tersedia melalui web. Memberi **@GetMapping(“/hello”)** tahu Spring untuk menggunakan hello() metode kami untuk menjawab permintaan yang dikirim ke **http://localhost:8080/helloalamat**. Akhirnya, **@RequestParamSpring** memberi tahu Spring untuk mengharapkan name nilai dalam permintaan, tetapi jika tidak ada, itu akan menggunakan kata "Dunia" secara default.
 
 **Langkah 3 :**
 <br>Server Apache Tomcat tertanam pada Spring Boot bertindak sebagai server web dan mendengarkan permintaan pada localhostport 8080. Buka browser Anda dan di bilah alamat di bagian atas enter http://localhost:8080/halo . Anda harus mendapatkan respons ramah yang bagus seperti ini:
-<br>![image](https://user-images.githubusercontent.com/113502499/192421376-4e80efd1-f80b-49c5-bd4e-f77517e99a99.png)
-
+<br>
