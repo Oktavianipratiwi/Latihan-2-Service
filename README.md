@@ -1,7 +1,7 @@
 # Latihan-2-Service
 Tugas Ke2 P.Client Server
 
-# **Membuat Latihan 2 Microservice **
+# ** Membuat Latihan 2 Microservice **
 
 ## Download Project Maven
 **Langkah 1 :** Pertama kali yang harus dilakukan yaitu membuat project Maven menggunakan Spring Initializr https://start.spring.io/
